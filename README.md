@@ -22,8 +22,8 @@ You can view:
    python3 forecast.py
 4. Output files will be generated in the data/ folder:
 **Forecast Excel:** [sales_forecast.xlsx](data/sales_forecast.xlsx)  
-**Full forecast chart:** ![Full Forecast](data/full_forecast.png)  
-**Next 60 days chart:** ![Next 60 Days Forecast](data/next_60_days_forecast.png)
+**Full forecast chart:** [full_forecast.png](data/full_forecast.png)  
+**Next 60 days chart:** [next_60_days_forecast.png](data/next_60_days_forecast.png)
 
 ## Learnings & Challenges
 1. Initially, the Prophet forecast plotted all available data (2013–2018) instead of just the upcoming 60 days. This was resolved by filtering the forecast output before plotting.
